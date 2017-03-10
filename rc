@@ -4893,7 +4893,7 @@ f fcn.00406204 249 0x00406204
 f fcn.00403b60 162 0x00403b60 
 f fcn.00406188 111 0x00406188 
 f fcn.00402e38 32 0x00402e38 
-f fcn.00406380 199 0x00406380 
+f ressource_handler 199 0x00406380 
 f fcn.004039dc 10 0x004039dc 
 f fcn.00403a60 115 0x00403a60 
 f fcn.004048bc 546 0x004048bc 
@@ -15154,8 +15154,8 @@ afxC 0x40630c 0x403c6c
 afxC 0x40630c 0x4055dc
 afxC 0x40630c 0x405484
 afS 48 @ 0x40630c
-f fcn.00406380 199 0x00406380
-af+ 0x00406380 fcn.00406380 f n
+f ressource_handler 199 0x00406380
+af+ 0x00406380 ressource_handler f n
 afC cdecl @ 0x00406380
 afb+ 0x00406380 0x00406380 83 0x0040641e 0x004063d3 n
 afb+ 0x00406380 0x004063d3 3 0x004063d6 0xffffffffffffffff b
@@ -31193,4 +31193,4 @@ tk func.RegisterServiceCtrlHandlerExW.arg.1=LPVOID,lpHandlerProc
 tk strndup=func
 # macros
 # seek
-s 0x0040e1a8
+s 0x00406380
